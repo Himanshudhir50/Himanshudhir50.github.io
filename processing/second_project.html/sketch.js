@@ -1,15 +1,29 @@
-var x1 = -20;
-var x2 = 20;
+var bug;
 
 function setup() {
-  createCanvas(1400, 800);
-  noStroke(); 
+  createCanvas(1480, 800);
+  background(204);
+  // Create object and pass in parameters
+  bug = new JitterBug(width/2, height/2, 20);
 }
 
 function draw() {
-  background(0);
-  x1 += 0.5;
-  x2 += 0.5;
-  arc(x1, 30, 40, 400, 200, 5.76, 40);
-  arc(x2, 90, 40, 200, 200, 5.76, 40);
+  bug.move();
+  bug.display();
+}
+
+function JitterBug(tempX, tempY, tempDiameter) {
+  this.x = tempX;
+  this.y = tempY;
+  this.diameter = tempDiameter;
+  this.speed = 2.5;
+  
+  this.move = function() {
+    this.x += random(-this.speed, this.speed);
+    this.y += random(-this.speed, this.speed);
+  }
+  
+  this.display = function() {
+    ellipse(this.x, this.y, this.diameter, this.diameter);
+  }
 }
