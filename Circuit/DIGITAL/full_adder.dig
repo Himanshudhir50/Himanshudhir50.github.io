@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<circuit>
+  <version>1</version>
+  <attributes/>
+  <visualElements>
+    <visualElement>
+      <elementName>half_adder.dig</elementName>
+      <elementAttributes/>
+      <pos x="540" y="180"/>
+    </visualElement>
+    <visualElement>
+      <elementName>half_adder.dig</elementName>
+      <elementAttributes/>
+      <pos x="380" y="260"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Or</elementName>
+      <elementAttributes>
+        <entry>
+          <string>wideShape</string>
+          <boolean>true</boolean>
+        </entry>
+      </elementAttributes>
+      <pos x="740" y="240"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Out</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Label</string>
+          <string>Carry_out</string>
+        </entry>
+      </elementAttributes>
+      <pos x="920" y="260"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Out</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Label</string>
+          <string>Sum_out</string>
+        </entry>
+      </elementAttributes>
+      <pos x="920" y="180"/>
+    </visualElement>
+    <visualElement>
+      <elementName>In</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Label</string>
+          <string>Carry_in</string>
+        </entry>
+      </elementAttributes>
+      <pos x="260" y="180"/>
+    </visualElement>
+    <visualElement>
+      <elementName>In</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Label</string>
+          <string>A_in</string>
+        </entry>
+      </elementAttributes>
+      <pos x="260" y="260"/>
+    </visualElement>
+    <visualElement>
+      <elementName>In</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Label</string>
+          <string>B_in</string>
+        </entry>
+      </elementAttributes>
+      <pos x="260" y="300"/>
+    </visualElement>
+  </visualElements>
+  <wires>
+    <wire>
+      <p1 x="680" y="240"/>
+      <p2 x="740" y="240"/>
+    </wire>
+    <wire>
+      <p1 x="260" y="180"/>
+      <p2 x="540" y="180"/>
+    </wire>
+    <wire>
+      <p1 x="600" y="180"/>
+      <p2 x="920" y="180"/>
+    </wire>
+    <wire>
+      <p1 x="260" y="260"/>
+      <p2 x="380" y="260"/>
+    </wire>
+    <wire>
+      <p1 x="440" y="260"/>
+      <p2 x="500" y="260"/>
+    </wire>
+    <wire>
+      <p1 x="820" y="260"/>
+      <p2 x="920" y="260"/>
+    </wire>
+    <wire>
+      <p1 x="340" y="280"/>
+      <p2 x="380" y="280"/>
+    </wire>
+    <wire>
+      <p1 x="440" y="280"/>
+      <p2 x="740" y="280"/>
+    </wire>
+    <wire>
+      <p1 x="500" y="200"/>
+      <p2 x="540" y="200"/>
+    </wire>
+    <wire>
+      <p1 x="600" y="200"/>
+      <p2 x="680" y="200"/>
+    </wire>
+    <wire>
+      <p1 x="260" y="300"/>
+      <p2 x="340" y="300"/>
+    </wire>
+    <wire>
+      <p1 x="340" y="280"/>
+      <p2 x="340" y="300"/>
+    </wire>
+    <wire>
+      <p1 x="500" y="200"/>
+      <p2 x="500" y="260"/>
+    </wire>
+    <wire>
+      <p1 x="680" y="200"/>
+      <p2 x="680" y="240"/>
+    </wire>
+  </wires>
+  <measurementOrdering/>
+</circuit>
