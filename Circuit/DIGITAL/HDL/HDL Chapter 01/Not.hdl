@@ -8,7 +8,7 @@
  * out = not in
  */
 
-CHIP Not {
+CHIP Not{
     IN in;
     OUT out;
 

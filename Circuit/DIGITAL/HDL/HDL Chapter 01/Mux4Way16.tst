@@ -27,23 +27,3 @@ output;
 set sel 3,
 eval,
 output;
-
-set a %B0001001000110100,
-set b %B1001100001110110,
-set c %B1010101010101010,
-set d %B0101010101010101,
-set sel 0,
-eval,
-output;
-
-set sel 1,
-eval,
-output;
-
-set sel 2,
-eval,
-output;
-
-set sel 3,
-eval,
-output;
